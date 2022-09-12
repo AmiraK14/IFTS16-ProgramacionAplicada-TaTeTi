@@ -33,6 +33,13 @@ public class Jugador2 extends Jugador{
 		return ubicacionElegida;
 	}
 	
+	public int verificarUbicacionValida(int ubicacion, String tipoUbicacion) {
+		 while (ubicacion>2 || ubicacion<0) {
+			ubicacion = Integer.parseInt(lector.nextLine());
+		}
+		 return ubicacion;
+	}
+	
 	public void mensajeGanador() {
 		System.out.println("******* GANO LA COMPUTADORA *******");
 		sumarPuntos();

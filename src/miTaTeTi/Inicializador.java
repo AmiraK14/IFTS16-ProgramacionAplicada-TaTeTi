@@ -19,7 +19,9 @@ public class Inicializador {
 		Jugador jugador2 = new Jugador2("Computadora");
 		//System.out.println("Bienvenid@ "+nombre + ". Usted usará los CIRCULOS (0)\n");
 		
+		System.out.println("Deberá ingresar un valor entre 0 y 2 para elegir la fila y columna de la casilla elegida");
 		System.out.println("Que empiece el juego!!");
+		
 		
 		//int contadorJugadas = 0;
 		int jugadorActual;
